@@ -1,0 +1,64 @@
+/*Teksto formatavimas*/
+article h2{
+	font-family:'Roboto mono', Tahoma, Arial, 'Times New Roman', sans-serif;
+	text-align:right;
+}
+
+h1{
+	border:1px solid;
+	height:100px;
+	width:202px;
+	background-color:grey;
+	text-align:center;
+
+
+}
+article {
+	border:2px dotted;
+
+}
+article p span{color:red;}
+h1{ 
+	font-family: Arial;
+	text-transform: uppercase;
+	}
+	h1{
+		color:purple;
+	}
+p{ 
+	font-family:'Noto Serif';
+	font-size:0.8em;
+	font-style:bold;
+	font-weight:bolder;
+	text-align:justify;
+
+}
+}
+article{
+	color:blue;
+}
+article{
+	background-color:yellow;
+}
+h2{
+	color:green;
+}
+h3{
+	color:red;
+	text-align:center;
+}
+ul :first-child{
+	text-align: center;
+}
+ul :first-child{
+  background-color: yellow;
+}
+table, th, td {
+  border: 1px solid black;
+}
+tr:nth-child(2n){
+	background-color:lime;
+}
+article a{
+	text-decoration: none;
+}
