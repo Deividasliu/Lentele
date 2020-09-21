@@ -1,0 +1,30 @@
+h1{
+	color:red;
+}
+p{
+	color:green;
+}
+article{
+	color:blue;
+}
+article{
+	background-color:yellow;
+}
+h2{
+	color:green;
+}
+h3{
+	color:grey;
+}
+ul :first-child{
+	text-align: center;
+}
+ul :first-child{
+  background-color: yellow;
+}
+table, th, td {
+  border: 1px solid black;
+}
+tr:nth-child(2n){
+	background-color:lime;
+}
