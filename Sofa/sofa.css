@@ -1,0 +1,65 @@
+
+h1{
+	color:black;
+	text-align:center;
+}
+a{ text-align:center;
+ }
+h2{
+	text-align:center;
+}
+a{align-content:center}
+section{
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+}
+div{
+	text-align:center;
+}
+
+#Products{
+	text-align:left;
+}
+#Work{
+	text-align:left;
+}
+#Company{
+	text-align:left;
+}
+#Blog{
+	text-align:left;
+}
+p{
+	text-align:left;
+}
+#Footerp{
+	text-align:center;
+}
+#line{
+	border: bold 1px width 200;
+	text-align: center;
+}
+#line2{
+	border: bold 5px width 40%;
+	text-align: center;
+}
+h3{
+	text-align:center;
+}
+div{
+  width: 100px;
+  border: 10px white;
+  padding: 50px;
+  margin: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container{
+	display:block;
+margin-left: auto;
+margin-right: auto;
+width:50%;

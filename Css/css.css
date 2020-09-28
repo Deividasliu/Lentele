@@ -1,30 +1,41 @@
+
+*{
+	box-sizing: border box;
+}
 h1{
-	color:red;
+	outline:1px solid black;
+	color:white;
+	box-sizing: border-box;
+	background-color:grey;
+	margin:10px auto;
+	border:2px;
+	border-color:grey;
+	width:25%;
 }
-p{
-	color:green;
+.container{
+	box-sizing: border-box;
+	background-color:black;
+	margin:50px auto;
+	width:40%;
+	height:250px;
+	padding:25px;
+	border:1px solid #000; /*dotted dashed*/
+	border-top:1px dashed #005588;
+	border-color:grey;
 }
-article{
-	color:blue;
+nav{
+	padding:10px;
+	background-color: #eeff88;
 }
-article{
-	background-color:yellow;
+nav ul li{
+	list-style:none;
+	display:inline-block;
+	width:10%;
+	background-color: #ff6600;
+	padding: 10px 0;
+	text-align:center;
 }
-h2{
-	color:green;
-}
-h3{
-	color:grey;
-}
-ul :first-child{
-	text-align: center;
-}
-ul :first-child{
-  background-color: yellow;
-}
-table, th, td {
-  border: 1px solid black;
-}
-tr:nth-child(2n){
-	background-color:lime;
+nav ul li:hover{background-color:#000;}
+nav ul li a{
+	text-decoration: none;
 }
